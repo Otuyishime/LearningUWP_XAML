@@ -1,0 +1,30 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LearningUWP_XAML"
+    xmlns:ctrls="using:LearningUWP_XAML.Controls">
+
+    <!--<Style TargetType="ctrls:PivotTabHeader" >
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ctrls:PivotTabHeader">
+                    <StackPanel Orientation="Vertical"
+                                Padding="5" 
+                                Background="#FFCCCCCC"
+                                Margin="0,2">
+                        <SymbolIcon Symbol="{TemplateBinding TabSymbol}" 
+                                    Foreground="#CC000000"
+                                    Margin="5"
+                                    Width="20"/>
+                        <TextBlock FontFamily="{StaticResource OpenSansLight}" 
+                                   FontSize="12" 
+                                   Text="{TemplateBinding TabText}"
+                                   Foreground="#CC000000"
+                                   TextAlignment="Center"/>
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>-->
+    
+</ResourceDictionary>
