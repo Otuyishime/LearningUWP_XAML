@@ -126,16 +126,97 @@
                         </StackPanel>
                     </Grid>
                 </Border>
-
+                
+                <!--- PRIMARY BUTTON-->
                 <Button Padding="40,10" 
-                        Background="#FFCCCCCC"
+                        Background="#FF0078D7"
                         Margin="10"
                         Style="{StaticResource DefaultButton}">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock FontFamily="{StaticResource OpenSansLight}" 
                                        FontSize="13" 
-                                       Text="Main"
-                                       Foreground="#CC000000"
+                                       Text="Primary Button"
+                                       Foreground="#FFFFFFFF"
+                                       VerticalAlignment="Bottom"
+                                       RelativePanel.RightOf="btnIcon"
+                                       RelativePanel.AlignBottomWith="btnIcon"/>
+                    </StackPanel>
+                </Button>
+
+                <!--- SECONDARY BUTTON-->
+                <Button Padding="40,10" 
+                        Background="#FF6C757D"
+                        Margin="10"
+                        Style="{StaticResource DefaultButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="{StaticResource OpenSansLight}" 
+                                       FontSize="13" 
+                                       Text="Secondary Button"
+                                       Foreground="#FFFFFFFF"
+                                       VerticalAlignment="Bottom"
+                                       RelativePanel.RightOf="btnIcon"
+                                       RelativePanel.AlignBottomWith="btnIcon"/>
+                    </StackPanel>
+                </Button>
+
+                <!--- SUCCESS BUTTON-->
+                <Button Padding="40,10" 
+                        Background="#FF28A745"
+                        Margin="10"
+                        Style="{StaticResource DefaultButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="{StaticResource OpenSansLight}" 
+                                       FontSize="13" 
+                                       Text="Success Button"
+                                       Foreground="#FFFFFFFF"
+                                       VerticalAlignment="Bottom"
+                                       RelativePanel.RightOf="btnIcon"
+                                       RelativePanel.AlignBottomWith="btnIcon"/>
+                    </StackPanel>
+                </Button>
+
+                <!--- DANGER BUTTON-->
+                <Button Padding="40,10" 
+                        Background="#FFDC3545"
+                        Margin="10"
+                        Style="{StaticResource DefaultButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="{StaticResource OpenSansLight}" 
+                                       FontSize="13" 
+                                       Text="Danger Button"
+                                       Foreground="#FFFFFFFF"
+                                       VerticalAlignment="Bottom"
+                                       RelativePanel.RightOf="btnIcon"
+                                       RelativePanel.AlignBottomWith="btnIcon"/>
+                    </StackPanel>
+                </Button>
+
+                <!--- WARNING BUTTON-->
+                <Button Padding="40,10" 
+                        Background="#FFFFC107"
+                        Margin="10"
+                        Style="{StaticResource DefaultButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="{StaticResource OpenSansLight}" 
+                                       FontSize="13" 
+                                       Text="Warning Button"
+                                       Foreground="#FFFFFFFF"
+                                       VerticalAlignment="Bottom"
+                                       RelativePanel.RightOf="btnIcon"
+                                       RelativePanel.AlignBottomWith="btnIcon"/>
+                    </StackPanel>
+                </Button>
+
+                <!--- INFO BUTTON-->
+                <Button Padding="40,10" 
+                        Background="#FF17A2B8"
+                        Margin="10"
+                        Style="{StaticResource DefaultButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="{StaticResource OpenSansLight}" 
+                                       FontSize="13" 
+                                       Text="Info Button"
+                                       Foreground="#FFFFFFFF"
                                        VerticalAlignment="Bottom"
                                        RelativePanel.RightOf="btnIcon"
                                        RelativePanel.AlignBottomWith="btnIcon"/>
@@ -143,7 +224,6 @@
                 </Button>
 
             </StackPanel>
-
         </ScrollViewer>
 
     </Grid>
